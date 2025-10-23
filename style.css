@@ -1,0 +1,84 @@
+/* --> General Page Styling <-- */
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: aqua;
+    color: #222;
+    margin: 20px;
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #1565c0;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #1e88e5;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+/* ===== Paragraphs and Lists ===== */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+ul,
+ol {
+    text-align: left;
+    padding-left: 25px;
+}
+
+/* ===== Links ===== */
+a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0d47a1;
+    text-decoration: underline;
+}
+
+/* ===== Image Section ===== */
+img {
+    display: block;
+    margin-top: 10px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+/* ===== Multimedia ===== */
+audio,
+video {
+    display: block;
+    margin-top: 10px;
+    border: 1px solid aqua;
+    border-radius: 2px;
+}
+
+/* ===== Button ===== */
+button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
